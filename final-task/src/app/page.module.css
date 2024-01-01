@@ -1,0 +1,65 @@
+.home .content {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.home .content .items {
+  flex: 2;
+}
+.home .content .items .categories {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.home .content .invoice {
+  flex: 1;
+  padding: 16px;
+  background: #eee;
+  border-radius: 8px;
+  height: fit-content;
+}
+
+.home .content .invoice .itemsList {
+  max-height: 500px;
+  overflow-y: auto;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+}
+
+.home .content .invoice .total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24px;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #fff;
+}
+
+.home .content .invoice .total h1 {
+  font-weight: bold;
+}
+
+.home .content .invoice button {
+  width: 100%;
+  font-size: 22px;
+  height: 48px;
+}
+
+.home .invoiceCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 8px 14px;
+  margin-bottom: 8px;
+}
+.home .invoiceCard .qt {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
